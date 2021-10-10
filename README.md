@@ -1,26 +1,36 @@
-# README
+# TOY APP (Rails Tutorial)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This code was created while following the https://www.railstutorial.org/book
 
-Things you may want to cover:
+## 1. Toy app set up
+Run: 
 
-* Ruby version
+`rails new toy_app`
 
-* System dependencies
+Change the platform: 
 
-* Configuration
+`bundle lock --add-platform x86_64-linux`
 
-* Database creation
+Install gems
 
-* Database initialization
+`bundle install`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## 2. Heroku deployment
+- Initialize git repo
+- Create remote repo and add it in your local:
 
-* Deployment instructions
+`git remote add origin https://github.com/andressyj24/ruby-toy-app.git`
 
-## Heroku deployment
-This app is deployed in https://glacial-taiga-37364.herokuapp.com/
+- Push the code
+
+- Now create heroku env
+
+`heroku create`
+
+- Push the code into heroku
+
+`git push heroku main`
+
+- This app is deployed in [toy_app in heroku](https://glacial-taiga-37364.herokuapp.com/)
 
