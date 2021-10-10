@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+## Heroku deployment
+This app is deployed in https://glacial-taiga-37364.herokuapp.com/
+
